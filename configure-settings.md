@@ -31,7 +31,7 @@ If the preference activity is declared in `AndroidManifest.xml` with the intent 
       </intent-filter>
     </activity>
 
-Alternatively, if the host application already uses preferences then the Push Video preferences may be added to the preferences XML file:
+Alternatively, if the host application already uses preferences then the Incoming preferences may be added to the preferences XML file:
 
     <PreferenceCategory android:title="Push Video Preferences" >
         <SwitchPreference
