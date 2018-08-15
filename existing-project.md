@@ -84,14 +84,11 @@ BroadCastReceiver config.
 
 The permission `android.permission.ACCESS_COARSE_LOCATION` is optional in version 1.4 and above of the Push Video SDK. Coarse location information is used to improve notification timing and provide analytics data but may be omitted if it is inappropriate for the application to request this permission.
 
-## Broadcast Receiver Configuration And Video Player Activity Coinfiguration
+## Broadcast Receiver Configuration
 
      <application android:allowBackup="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
 
         <!-- Begin PVN configuration -->
-
-        <activity android:configChanges="orientation" android:exported="true" android:name="com.incoming.au.uiframework.VideoViewPlayer" android:screenOrientation="sensorLandscape">
-        </activity>
 
         <receiver android:name="com.incoming.au.sdk.notification.NotificationBroadcastReceiver">
             <intent-filter>
