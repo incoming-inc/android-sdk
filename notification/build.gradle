@@ -16,5 +16,5 @@ android {
 }
 
 dependencies {
-    implementation 'com.incoming-media:incoming-push-video-sdk:2.5.12'
+    implementation 'co.sourse:sourse-push-video-sdk:2.6.3'
 }

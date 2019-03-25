@@ -3,8 +3,6 @@ package co.sourse.example;
 import android.app.Activity;
 import android.os.Bundle;
 
- import co.sourse.example.R;
-
  public class PVNTemplateActivity extends Activity {
 
   @Override

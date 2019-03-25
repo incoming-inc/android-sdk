@@ -1,17 +1,14 @@
 package co.sourse.example;
 
 import android.app.Application;
-import android.preference.PreferenceManager;
 import android.util.Log;
 
 import com.incoming.au.foundation.tool.LogIncoming;
-import com.incoming.pvnsdk.PushVideo;
 
- import co.sourse.example.R;
+import co.sourse.pvnsdk.PushVideo;
 
- /**
- * Simple Android Application class that launches the Incoming Push Video SDK. The Push Video SDK configuration
- * may also be invoked from the launch Activity.
+/**
+ * Simple Android Application class that launches the Sourse Analytics SDK.
  */
 public class PVNTemplateApplication extends Application {
 
